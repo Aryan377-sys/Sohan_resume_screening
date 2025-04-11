@@ -277,16 +277,4 @@ Follow these steps to set up and run the project locally:
 * **No Model Training:** This application *uses* a pre-trained LLM API; it does *not* train or fine-tune any models on your data. The database stores application records, not training data.
 * **DeepSeek Client:** This implementation uses the standard `requests` library. If DeepSeek provides an official Python client library, consider switching to that for potentially easier usage or added features.
 
-## Future Improvements (Ideas)
 
-* Implement more sophisticated error handling and retry mechanisms for API calls.
-* Develop a more advanced dashboard in Streamlit to view/filter/search past applications stored in the database.
-* Add support for more resume file types (e.g., .doc, .rtf).
-* Allow users to fine-tune the prompts used for the LLM via the UI or a config file.
-* Integrate directly with Applicant Tracking Systems (ATS).
-* Explore using asynchronous processing for API calls to make the UI more responsive.
-* Add unit and integration tests.
-
-## License
-
-(Optional: Add your license information here, e.g., MIT License)
